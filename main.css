@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
+@import url('button.css');
+
+body {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: rgb(112, 25, 146);
+  color: #0008;
+}
+#app {
+  max-width: 980px;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+input {
+  border-radius: 1rem !important;
+  height: 80px;
+  width: 100%;
+  font-size: 40px !important;
+  margin-bottom: 15px;
+}
+button {
+  width: 100%;
+}
+input::placeholder {
+  color: #a1a1a1 !important;
+  font-size: 40px !important;
+}
+@media (min-width: 768px) and (min-height: 200px) {
+  .container {
+    position: absolute;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
